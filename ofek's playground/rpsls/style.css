@@ -1,0 +1,44 @@
+.plain{
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Lucida Sans Regular';
+    font-variant-caps: all-petite-caps;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    border-radius: 90px;
+    height: 90px;
+    width: 90px;
+}
+.rock{
+    color:gold;
+    border: gold groove;
+    background-image: url("images/rock2.png");
+    
+}
+.paper{
+    color:magenta;
+    border: magenta groove;
+    background-image: url("images/paper.jpg");
+   
+}.scissors{
+    color:rgb(27, 229, 27);
+    border: rgb(27, 229, 27) groove;
+    background-image: url("images/sccisors.png");
+   
+}.lizard{
+    color:rgb(0, 21, 255);
+    border: rgb(0, 21, 255) groove;
+    background-image: url("images/lizard.png");
+
+    
+}.spock{
+    color:rgb(0, 255, 238);
+    border: rgb(0, 255, 238) groove;
+    background-image: url("images/spock.png");
+    
+}
+img{
+    size:20%
+}

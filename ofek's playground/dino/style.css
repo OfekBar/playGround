@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#gameboard{
+    width: 700px;
+    height: 200px;
+    border: 2px solid white;
+    background-image: url("images/backround.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+#dino{
+    width: 70px;
+    height: 55px;
+    position: relative;
+    top:130px;
+    left: 20px;
+    background-image: url("images/dino.jpg");
+    background-size: cover;
+
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top:10px;}
+    70%{top:10px;}
+    100%{top:150px;}
+}
+.animate{
+    animation: jump 600ms;
+}
+
+#block{
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    position: relative;
+    top: 80px;
+    left: 700px;
+    animation-name:block;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: url('images/inv8.png');
+    background-size: cover;
+
+}
+.animationSpeed0{
+    animation-duration: 2500ms;
+}
+.animationSpeed1{
+    animation-duration: 2250ms;
+}
+.animationSpeed2{
+    animation-duration: 2000ms;
+}
+.animationSpeed3{
+    animation-duration: 1750ms;
+}
+.animationSpeed4{
+    animation-duration: 1500ms;
+}
+.animationSpeed5{
+    animation-duration: 1250ms;
+}.animationSpeed6{
+    animation-duration: 1000ms;
+}.animationSpeed7{
+    animation-duration: 750ms;
+}
+@keyframes block{
+    0%{right: -10px;}
+    50%{right:360px;}
+    100%{left: -10px;}
+
+}

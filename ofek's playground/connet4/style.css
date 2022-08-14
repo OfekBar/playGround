@@ -1,0 +1,27 @@
+.grid {
+    border: 2px solid white;
+    height: 360px;
+    width: 420px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid div {
+    height: 58px;
+    width: 58px;
+
+  }
+  
+  .player-one {
+    background-color: cyan;
+    border-radius:45px;
+  }
+  
+  .player-two {
+    background-color: magenta;
+    border-radius:45px;
+  }
+  .game-over{
+    background-color: rgb(228, 212, 145);
+    border-radius:45px;
+  }

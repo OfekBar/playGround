@@ -1,0 +1,93 @@
+.grid {
+	width: 450px;
+	height: 450px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	background-color: rgb(56, 5, 57);
+	width: 30px;
+	height: 30px;
+}
+
+.invader {
+	background-color: cyan;
+}
+.inv1{
+	background-image: url('images/inv1.png');
+	background-size: cover;
+}
+.inv2{
+	background-image: url('images/inv2.png');
+	background-size: cover;
+}
+.inv3{
+	background-image: url('images/inv3.png');
+	background-size: cover;
+}
+.inv4{
+	background-image: url('images/inv4.png');
+	background-size: cover;
+}
+.inv5{
+	background-image: url('images/inv5.png');
+	background-size: cover;
+}
+.inv6{
+	background-image: url('images/inv6.png');
+	background-size: cover;
+}
+.inv7{
+	background-image: url('images/inv7.png');
+	background-size: cover;
+}
+.inv8{
+	background-image: url('images/inv8.png');
+	background-size: cover;
+}
+.shooter {
+	background-image: url("images/shooter.png");
+	background-size: cover;
+}
+
+.laser {
+	background-image: url("images/laser.png");
+	background-size: cover;
+}
+
+.boom {
+	background-image: url('images/boom.png');
+	background-size: cover;
+}
+.endGame{
+	background-color: rgb(53, 4, 57);
+}
+.levels{
+	max-width: 20%;
+	margin-left: 10px;
+	flex-direction: column;
+	display: flex;
+}
+#defaultLevel{
+	color:cyan;
+}
+#triLevel{
+	color:magenta;
+}
+#forestLevel{
+	color:gold;
+}
+.levelButton{
+	font-size: 15px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+	margin: 10px;
+	background-image: url("../galaxy.jpg");
+	background-size: cover;
+	border: none;
+	width: 80px;
+	height: 40px;
+	
+}

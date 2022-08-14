@@ -1,0 +1,15 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 320px;
+    width: 600px;
+    background-color: rgb(5, 127, 115);
+    float: inline-end;
+
+}
+.grid img{
+    width:150px;
+    height: 80px;
+}
+
